@@ -1,0 +1,86 @@
+body {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  /*opacity: 0.5;*/
+  background-color: rgba(77,8,0, 0.5); /*How to make only background transparent*/
+  background-size: cover;
+}
+
+.quarter-width {
+  width: 300px;
+  float: left;
+}
+
+/***HEADER****/
+
+header {
+  background-color: #e6eeff;
+  background-size: cover;
+  height: 100px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size:22px;
+  color: #4d0800;
+  padding-left: 80px;
+}
+
+main {
+  clear: both;
+}
+
+footer {
+  background-color: #e6eeff;
+  background-size: cover;
+  height: 100px;
+  clear: both;
+  color: #335057;
+}
+
+#m-logo{
+  border: 12px solid #4d0800;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #335057;
+}
+
+footer ul li {
+  display: inline;
+  float: left;
+  margin: 5px;
+}
+
+#contact-info {
+  border: 2px double #4d0800;
+  width: 580px;
+}
