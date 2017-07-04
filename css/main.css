@@ -84,3 +84,27 @@ footer ul li {
   border: 2px double #4d0800;
   width: 580px;
 }
+
+/******SLIDESHOW******/
+.slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 300px; /*must be set*/
+}
+
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+}
+
+.slide:first-child {
+  display: block;
+}
